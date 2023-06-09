@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <meta name="description" content="this is description">
+        <meta name="keywords" content="html,html tutorials,web development">
+        <meta name="robots" content="INDEX,FOLLOW">        <!--whatever use in head tag not displayed as only body content displayed-->
+        <title><h2>Nehal Ashraf</h2></title>
+        <!-- This is how you include external css -->
+        <link rel="stylesheet" href="style.css">
+        <!-- This is how you include external JavaScript -->
+        <script src="Nehal.js"></script>
+    </head>
+    <body>
+        <h1>My First Web Page</h1>
+        <h2>My First Web Page</h2>
+        <h3>My First Web Page</h3>
+        <h4>My First Web Page</h4>
+        <h5>My First Web Page</h5>
+        <h6>My First Web Page</h6>
+        <!-- Alt+Z for horizontal single line to multiple line 
+        Ctrl+enter for jumping to new line without breaking-->
+         <p>Lorem ipsum, <strong>This tag is for bold font</strong>dolor sit amet consectetur adipisicing elit. <em><!--This tag is for emphasizing fontor itallic-->Praesentium accusamus odit </em>sint harum odio dolores,<br><!--for line break--> officia ab perspiciatis minus vitae enim assumenda nisi eveniet debitis soluta cupiditate! Rerum, earum veritatis?<hr><!--this is for horizontal line drawn--></p>
+         <!-- target="_blank" for opening link in new tab-->
+        <a href = "https://www.w3schools.com" target="_blank">Go to W3schools</a>
+        <br>
+        <a href = "https://www.google.com" target="_blank">Go to Google</a>
+        <br>
+        <a href = "https://www.facebook.com" target="_blank">Go to Facebook</a>
+        <br>
+        <a href = "https://www.youtube.com" target="_blank">Go to Youtube</a>
+        <br>
+        <a href = "https://www.instagram.com" target="_blank">Go to Instagram</a>
+        <br>
+        <a href = "/Nehal.html" target="_blank">Nehal html</a>
+        <br>
+        <!-- image is not present hence alt text is shown -->
+        <img src="https://source.unsplash.com/random/?city,night" alt="Error loading image">
+        <br>
+        <img src="nehal.jpg" alt="image not found">
+        <br>
+        <!-- ul is unordered list and ol is ordered list and li tag is used to describe items of list  list can be nested multiple times as for requirement-->
+        <ul type="disc">
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <ol type="I">
+                <li>subitem first of 2</li>
+                <ul type="circle">
+                    <li>first sub of subitem first of 2</li>
+                    <li>second sub of subitem first of 2</li>
+
+                </ul>
+                <li>subitem second of 2</li>
+                    </ol>
+            <li>Item 3</li>
+            <li>Item 4</li>
+            <li>Item 5</li>
+            <li>Item 6</li>
+        </ul>
+        <ol type="1">
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>Item 3</li>
+            <li>Item 4</li>
+            <li>Item 5</li>
+            <li>Item 6</li>
+        </ol>
+        <h3>HTML tables</h3>
+        <table>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Employee Id</th>
+                    <th>Employee Role</th>
+
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Nehal</td>
+                    <td>123</td>
+                    <td>Developer</td>
+                </tr> 
+                <tr>
+                    <td>John</td>
+                    <td>124</td>
+                    <td>Tester</td>
+                </tr>
+                <tr>
+                    <td>Smith</td>
+                    <td>125</td>
+                    <td>Manager</td>
+                </tr>
+                <tr>
+                    <td>David</td>
+                    <td>126</td>
+                    <td>Assistant Developer</td>
+                </tr>
+            </tbody>
+        </table>
+        <h2>HTML forms</h2>
+        <form action="https//google.com" method="get">
+            <label for="name">Name</label>
+            <div>
+                <input type="text" name="myName" id="name">
+            </div>
+            <br>
+            <label for="email">Enter your email</label>
+            <div>
+                <input type="email" name="myEmail" id="email">
+            </div>
+            <br>
+            <label for="password">Password</label>
+            <div>
+                <input type="password" name="myPassword" id="password">
+            </div>
+            <br>
+            <label for="datetime-local">DATE & TIME</label>
+            <div>
+                <input type="datetime-local" name="" id="datetime-local">
+            </div>
+            <br>
+            <label for="BONUS">BONUS</label>
+            <div>
+                <input type="number" name="BONUS" id="BONUS">
+            </div>
+            <br>
+            <label for="checkbox">tick the correct option:</label>
+            <div>
+                <input type="checkbox" name="correct" id="checkbox">
+            </div>
+            <br>
+            <div>
+                Multiple choice questions<br> a question can be true,false,either true or false and neither true nor false:<br>TRUE<input type="radio" name="true/false">FALSE<input type="radio" name="true/false">NIETHER TRUE NOR FALSE<input type="radio" name="true/false">EITHER TRUE OR FALSE<input type="radio" name="true/false">
+            </div>
+            <label for="myText">Please enter <strong>text</strong> in textbox:</label>
+            <div>
+                <textarea name="myText" cols="30" rows="10" id="myText"></textarea>
+            </div>
+            <label for="Car">select the company of car recieved</label>
+            <div>
+                <select name="Car" id="Car">
+                    <option value="Maruti">Maruti</option>
+                    <option value="Hyundai">Hyundai</option>
+                    <option value="Tata">Tata</option>
+                    <option value="Mahindra">Mahindra</option>
+                    <option value="Honda">Honda</option>
+                    <option value="Toyota">Toyota</option>
+                </select>
+                <select name="car model" id="Car model">
+                    <option value="Swift">Swift</option>
+                    <option value="i20">i20</option>
+                    <option value="Nano">Nano</option>
+                    <option value="SCORPIO-N">SCORPIO-N</option>
+                    <option value="CITY">CITY</option>
+                </select>
+            </div>
+            <div>
+                <input type="submit" value="Submit">
+                <input type="reset" name="reset the input data">
+            </div>
+        </form>
+        <a style="border: 2px solid red;">this is a paragraph</a>
+        <a style ="border: 2px solid orangered;">this is another paragraph</a>
+        <span style="border: 2px solid blue;">this is a span</span>
+        <span style="border: 2px solid pink">this is another span</span>
+        <h3>Ids and Classes</h3>
+        <div id="mainBox" class="redBg">
+            <div id="innerBox" class="blueBg">
+                <div id="innermostBox" class="greenBg">
+                    <p>hello world</p>
+                </div>
+            </div>
+        </div>
+<!-- (.) is for class and # is for id|type span(classname)#(id name)-->
+        <span class="secondbox" id="yellowbg"></span>
+        <!-- Emmet(use of . ) takes div tag as default -->
+        <div class="thirdbox"></div>
+        <!-- Creating multiple elements using Emmet -->
+        <!-- span.firstclass#redbg.secondclass#orangebg.thirdclass#yellowbg+<Tab> -->
+            <span class="firstclass secondclass thirdclass">First</span>
+            <span class="firstclass secondclass thirdclass">further class</span>
+            <span class="firstclass secondclass thirdclass">further class</span>
+            <span class="firstclass secondclass thirdclass">further class</span>
+        <div class="class can be assigned multiple times but id is unique">
+            <p>This is a paragraph </p>
+        </div>
+        <!-- HTML ENTITIES  -->
+        <div class="class can be assigned multiple times but id is unique">
+            <p>This is another &nbsp; &nbsp; paragraph with two spaces</p>
+            <p>Paragraph tag is used like this &lt;p&gt;</p>
+            <p>Pound symbol &pound;</p>
+            <p>copyright symbol &copy;</p>
+            <p>registered symbol &reg;</p>
+            <p>degree symbol &deg;</p>
+            <p>superscript &sup2;</p>
+            <p>subscript &sub2;</p>
+            <p>another character is &rAarr;</p>
+            <p>another character &frac14;</p>
+            <p>Empty character is written like this &#8203;</p>
+        </div>
+        <!-- HTML SEMANTIC TAGS  -->
+        <h2>sementic elements</h2>
+        <header>
+            <h1>Header</h1>
+        </header>
+        <nav>
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Contact</li>
+            </ul>
+        </nav>
+        <details>
+            <summary>Click here to see the details</summary>
+            <p>Details are shown here</p>
+        </details>
+    </body>
+</html>

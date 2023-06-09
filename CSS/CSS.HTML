@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>CSS TUTORIAL</title>
+        <title>Developer tools</title>
+        <style>
+            .para3{
+                color:rgb(rgb(181, 85, 85), rgb(63, 152, 63), rgb(149, 149, 215));}.para3 span{
+                background-color:red;
+                border: 20px solid mediumseagreen ;
+                padding: 70px solid skyblue;
+                margin: 20px solid orange;
+                border-radius: 15px;
+                width: 300px;
+            }
+            </style>
+            <link rel="stylesheet" href="style.css">
+            <style>
+                /* element selector */
+               
+                /* id selector */
+                #redelement{
+                    color:rgb(181, 85, 85);}#redelement span{
+                    background-color:blue;border:2px solid mediumseagreen ;
+                }
+                /* class selector */
+                .bgblue{
+                    color:rgb(149, 149, 215);}.bgblue span{
+                    background-color:yellow;border:2px solid mediumseagreen ;
+                }
+                
+                #lightelement{
+                    color:rgb(63, 152, 63);}#lightelement span{
+                    background-color:orange;border:2px solid mediumseagreen ;
+                }
+                /* grouping selector */
+                footer,span{
+                    background-color: rgb(182, 248, 232);
+                }
+            </style>
+            <style>
+                .title1{
+                    text-align: center;
+                    color:rgb(176, 51, 51);
+                }.title1 span{
+                    background-color:rgb(160, 160, 195);
+                    border: 2px solid mediumseagreen;
+                }
+            </style>
+            <style>
+                .title2{
+                    color:rgb(250, 106, 106);
+                    text-align: center;
+                }.title2 span{
+                    background-color:rgb(176, 176, 255);
+                    border: 2px solid mediumseagreen;
+                    }
+            </style>
+            <style>
+                .tools{
+                    color: purple;
+                    font-style: italic;}.tools span{
+                    background-color: rosybrown;border:2px solid mediumseagreen ;
+                }
+            </style>
+            <style>
+                body{
+                    background-image:url('https://source.unsplash.com/random/?city,night');                }
+            </style>
+            <style>
+                .flex{
+                    display:inline-flex;
+                    justify-content: right;
+                }
+                .items-center{
+                    align-items: right;
+                    justify-content: right;
+                }
+                .gap-x-8{
+                    gap: 2rem;
+                    justify-content: right;
+                }
+                </style>
+    </head>
+    <body>
+        <h3 class="title1"><span>This is CSS inline,internal and external</span></h3>
+        <ul style="color:blanchedalmond"  type="disc">
+            
+            <li><h5 class="para3"><span>This is about knowing css syntax</span></h5></li>
+            <h3 class="title2"><span> CSS selectors </span></h3>
+            <li><h5 id="lightelement"><span>This is simple paragraph to demonstrate css selectors</span></h5></li>
+            <li><h5 id="redelement"><span>This is another simple paragraph to demostrate css selectors</span></h5></li>
+            <li><h5 class="bgblue"><span>This is another simple paragraph to demostrate css selectors</span></h5></li>
+            <li><h5 class="tools"><span>This is tools paragraph</span></h5</li>
+            </ul>
+            <footer>This is footer</footer>
+            <span>This is span</span>
+        <ul class="flex items-center gap-x-8">
+            <li>
+                <a href="/docs/installation" target="_blank" class="hover:text-sky-500 dark:hover:text-sky-400">Docs</a>
+            </li>
+            <li>
+                <a href="https://tailwindui.com/?ref=top" target="_blank" class="hover:text-sky-500 dark:hover:text-sky-400">Components</a>
+            </li>
+        </ul>
+    </body>
+</html>
